@@ -83,7 +83,7 @@ You can also include the following shortcode in your blog posts or WordPress pag
 
 All the parameters that are accepted by the template tag can also be used in the shortcode.
 
-You can checkout [some example shortcodes](http://sudarmuthu.com/wordpress/posts-by-tag#example-shortcod3) that shows how you can use the shortcode with different options.
+You can checkout [some example shortcodes](http://sudarmuthu.com/wordpress/posts-by-tag#example-shortcode) that shows how you can use the shortcode with different options.
 
 #### Custom field
 
