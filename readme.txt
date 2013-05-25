@@ -68,7 +68,7 @@ The following options can be passed in the $options array
   - `tag_links` (bool) - default FALSE - To display link to tag archive page or not.
   - `link_target` (string) - default empty - target attribute for the permalink links.
 
-In addition to the above options the following options are available in the Pro addon
+In addition to the above options the following options are available in the [Pro addon](sudarmuthu.com/wordpress/posts-by-tag/pro-addons)
 
 - `campaign` (string) - The Google Analytics campaign code that needs to be appended to every link
 - `event` (string) - The Google Analytics events code that needs to be appended to every link
