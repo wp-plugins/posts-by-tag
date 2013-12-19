@@ -3,8 +3,8 @@ Contributors: sudar
 Tags: posts, sidebar, widget, tag, cache  
 Requires at least: 2.9  
 Donate Link: http://sudarmuthu.com/if-you-wanna-thank-me  
-Tested up to: 3.5.2  
-Stable tag: 3.0.3  
+Tested up to: 3.8  
+Stable tag: 3.0.4  
 	
 Provide sidebar widgets that can be used to display posts from a set of tags in the sidebar.
 
@@ -148,24 +148,15 @@ The following are the features that I am thinking of adding to the Plugin, when 
 
 *   Swedish (Thanks Gunnar Lindberg Årneby)
 *   Turkish (Thanks Yakup Gövler)
-*   Belorussian (Thanks [FatCow][2])
-*   German (Thanks [Renate][3])
-*   Dutch (Thanks [Rene][4])
-*   Hebrew (Thanks [Sagive SEO][6])
-*   Spanish (Thanks Brian Flores of [InMotion Hosting][7])
-*   Bulgarian (Thanks Nikolay Nikolov of [IQ Test][11])
-*   Lithuanian (Thanks  Vincent G , from [http://www.host1free.com][12])
+*   Belorussian (Thanks FatCow)
+*   German (Thanks Renate)
+*   Dutch (Thanks Rene)
+*   Hebrew (Thanks Sagive SEO)
+*   Spanish (Thanks Brian Flores of InMotion Hosting)
+*   Bulgarian (Thanks Nikolay Nikolov of [IQ Test)
+*   Lithuanian (Thanks  Vincent G)
 *   Hindi (Thanks Love Chandel)
-*   Gujarati (Thanks Punnet of [Resolutions Mart][13])
-
- [2]: http://www.fatcow.com/
- [3]: http://www.heftrucknederland.nl
- [4]: http://wpwebshop.com/premium-wordpress-plugins/
- [6]: http://www.sagive.co.il
- [7]: http://www.inmotionhosting.com/
- [11]: http://umenlisam.com/
- [12]: http://www.host1free.com
- [13]: http://resolutionsmart.com/
+*   Gujarati (Thanks Punnet of Resolutions Mart)
 
 The pot file is available with the Plugin. If you are willing to do translation for the Plugin, use the pot file to create the .po files for your language and let me know. I will add it to the Plugin after giving credit to you.
 
@@ -179,6 +170,9 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 2. Custom fields meta box. This is how the custom fields meta box looks like in the add or edit post/page screen
 
+== Readme Generator ==
+
+This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/wp-readme'>wp-readme</a>, which generates readme files for WordPress Plugins.
 == Changelog ==
 
 = v0.1 (2009-07-26)  =
@@ -342,6 +336,9 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 ### v3.0.3 (2013-07-06) - (Dev time: 0.5 hour)
 - Fixed the bug, that prevented shortcodes inside posts from getting expanded, when content is enabled in widget
 
+### v3.0.4 (2013-12-19) - (Dev time: 0.5 hour)
+- Fix: Remove undefined notices and warnings
+
 == Upgrade Notice ==
 
 = 3.0.2 =
@@ -354,7 +351,3 @@ Added the ability to order posts randomly
 = 2.9 =
 
 Fixed a bug that caused the widget to fail when custom fields are used
-
-== Readme Generator ==
-
-This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/wp-readme'>wp-readme</a>, which generates readme files for WordPress Plugins.
