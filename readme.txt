@@ -4,7 +4,7 @@ Tags: posts, sidebar, widget, tag, cache
 Requires at least: 2.9  
 Donate Link: http://sudarmuthu.com/if-you-wanna-thank-me  
 Tested up to: 3.8.1  
-Stable tag: 3.1.1  
+Stable tag: 3.1.2  
 	
 Provide sidebar widget, shortcode and template functions that can be used to display posts from a set of tags using various options in the sidebar or anywhere in a post.
 
@@ -355,7 +355,13 @@ This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/
 ### v3.1.1 (2014-02-26) - (Dev time: 0.5 hours)
 - Fix: If tags is empty and no options are set, then try to get tags from post tags
 
+### v3.1.2 (2014-03-06) - (Dev time: 0.5 hours)
+- Fix: In some cases Widget was not able to retrieve tags and title from custom field
+
 == Upgrade Notice ==
+
+= 3.1.2 =
+Fixed a bug that causes Widgets not to work in certain cases
 
 = 3.1 =
 Ability to pick up tags from post slug
