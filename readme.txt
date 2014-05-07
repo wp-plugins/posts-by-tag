@@ -3,9 +3,9 @@ Contributors: sudar
 Tags: posts, sidebar, widget, tag, cache  
 Requires at least: 2.9  
 Donate Link: http://sudarmuthu.com/if-you-wanna-thank-me  
-Tested up to: 3.8.1  
-Stable tag: 3.1.2  
-	
+Tested up to: 3.9  
+Stable tag: 3.1.3  
+
 Provide sidebar widget, shortcode and template functions that can be used to display posts from a set of tags using various options in the sidebar or anywhere in a post.
 
 == Description ==
@@ -27,11 +27,11 @@ Posts By Tag Plugin provides a sidebar widget which can be configured to display
 Each widget allows you to choose
 
 -   The set of tags from where posts should be selected (or excluded)
--   The number of posts to be displayed. 
+-   The number of posts to be displayed.
 -   Whether to pick the tags from current post
 -   Whether to pick the tags from current post slug
 -   Whether to pick the tags from current post's custom field
--   Option to enable post excerpts to be displayed with post titles. 
+-   Option to enable post excerpts to be displayed with post titles.
 -   Option to display post thumbnail if present.
 -   Option to display post author.
 -   Option to display post date.
@@ -257,7 +257,7 @@ This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/
 = v1.8 (2011-09-07) =
 
  *  Added support for displaying content (Thanks rjune)
- 
+
 = v1.9 (2011-11-13) =
 
  * Added Spanish and Hebrew translations.
@@ -295,7 +295,7 @@ This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/
 * Added option to disable cache if needed
 
 = v2.5 (2012-04-30) (Dev time - 0.5 hours) =
-* Fixed the sorting by title issue 
+* Fixed the sorting by title issue
 
 = v2.6 (2012-05-31) (Dev time: 2 hours) =
 * Added support for specifying link targets
@@ -357,6 +357,10 @@ This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/
 
 ### v3.1.2 (2014-03-06) - (Dev time: 0.5 hours)
 - Fix: In some cases Widget was not able to retrieve tags and title from custom field
+
+### v3.1.3 (2014-05-07) - (Dev time: 0.5 hours)
+- Fix: Fixed an undefined variable warning
+- Fix: Reset global post details
 
 == Upgrade Notice ==
 
