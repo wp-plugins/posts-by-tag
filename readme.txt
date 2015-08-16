@@ -3,8 +3,8 @@ Contributors: sudar
 Tags: posts, sidebar, widget, tag, cache  
 Requires at least: 2.9  
 Donate Link: http://sudarmuthu.com/if-you-wanna-thank-me  
-Tested up to: 3.9  
-Stable tag: 3.1.3  
+Tested up to: 4.3
+Stable tag: 3.2  
 
 Provide sidebar widget, shortcode and template functions that can be used to display posts from a set of tags using various options in the sidebar or anywhere in a post.
 
@@ -362,7 +362,13 @@ This Readme file was generated using <a href = 'http://sudarmuthu.com/wordpress/
 - Fix: Fixed an undefined variable warning
 - Fix: Reset global post details
 
+### v3.2.3 (2015-08-16) - (Dev time: 1 hours)
+- Fix: Added compatibility with WordPress 4.3
+
 == Upgrade Notice ==
+
+= 3.2 =
+Added compatibility with WordPress 4.3
 
 = 3.1.2 =
 Fixed a bug that causes Widgets not to work in certain cases
